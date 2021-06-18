@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="300.0" prefWidth="400.0">
+         <children>
+            <ComboBox fx:id="comboBoxPerson" layoutX="31.0" layoutY="70.0" onAction="#onComboBoxPersonAction" prefWidth="150.0" promptText="Select a person..." />
+            <Button fx:id="btAll" layoutX="274.0" layoutY="70.0" mnemonicParsing="false" onAction="#onBtAllAction" text="All" />
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
